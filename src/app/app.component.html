@@ -1,0 +1,12 @@
+<h1>
+  {{title}}
+</h1>
+
+Hey ho!, {{name}}
+
+<ol>
+  <li *ngFor="let object of objects">{{object.name}} {{object.age}}</li>
+</ol>
+
+
+<button (click)="updateApi()">Update</button>
